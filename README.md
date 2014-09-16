@@ -20,7 +20,7 @@ Scripts for building a <a href="http://www.docker.com/">Docker</a> image of the 
 <h3>Instructions:</h3>
 <ol>
 <li>Clone the project and go to the folder</li>
-<li>Run the host script <code>./containerSetup.sh</code>
+<li>Run the host script <code>./setup.sh</code>
 <li>Log in the container <code>ssh -p 48901 root@localhost</code>. The default password is <em>xxxx.xxxx.xxxx</em></li>
 <li>Go to <code>cd /</code></li>
 <li>Run the container script <code>./containerSetup.sh</code></li>
