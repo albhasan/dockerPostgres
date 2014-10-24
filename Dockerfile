@@ -24,7 +24,8 @@ RUN apt-get -qq update && apt-get install --fix-missing -y --force-yes \
         wget \
         nano \
         postgresql-9.1 \
-        postgresql-contrib
+        postgresql-contrib \ 
+        ssh
 
 
 # Set environment
